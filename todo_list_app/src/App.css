@@ -1,14 +1,15 @@
 body{
-  background-color: lightblue;
+  background-color: #f1f6f9;
 }
 .App{
-  background-color: white;
+  background-color: #394867;
   min-height: 500px;
   width: 400px;
   margin: 40px auto;
+  padding: 20px;
 }
 #todo-form input{
-  background-color: lightgray;
+  background-color: white;
   border: 0;
   width: 200px;
   height: 50px;
@@ -16,7 +17,14 @@ body{
   margin: 20px;
   font-size: 18px;
   border-radius: 10px;
+  color: black;
+}
+
+h1{
   color: white;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 40px;
 }
 
 #todo-form input::placeholder{
@@ -32,7 +40,7 @@ body{
   width: 80px;
   border-radius: 5px;
   border: 0;
-  background-color: rgb(52, 117, 92);
+  background-color: #16a596;
   cursor: pointer;
   font-weight: bolder;
   color: white;

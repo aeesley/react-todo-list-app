@@ -1,7 +1,7 @@
 .list{
     color: black;
     width: 300px;
-    background-color: pink;
+    background-color:#9ba4b4;
     height: 50px;
     margin: 20px auto;
     border-radius: 5px;
@@ -26,7 +26,7 @@
 .list p input{
     background-color: transparent;
     border: 0;
-    color: white;
+    color: black;
     font-size: 18px;
 }
 
