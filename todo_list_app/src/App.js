@@ -7,6 +7,7 @@ import {faTrash} from '@fortawesome/free-solid-svg-icons';
 
 library.add(faTrash);
 
+// test
 
 
 class App extends React.Component{
