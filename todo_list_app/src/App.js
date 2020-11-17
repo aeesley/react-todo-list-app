@@ -21,7 +21,7 @@ class App extends React.Component{
     }
     this.handleInput = this.handleInput.bind(this);
     this.addItem = this.addItem.bind(this);
-    this.deleteItem = this.deleteItem.bind(this)
+    this.deleteItem = this.deleteItem.bind(this);
   }
   handleInput(e){
     this.setState({
@@ -53,6 +53,7 @@ class App extends React.Component{
         items:filteredItems
     })
   }
+  
   render(){
     return (
       <div className="App">
